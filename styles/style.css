@@ -108,6 +108,8 @@
 .about-us{
     display: flex;
     justify-content:space-between;
+    background-color: rgba(0, 0, 0, 0.061);
+    border: 2px solid black;
 }
 .others{
     width: 100%;
@@ -138,6 +140,7 @@
     opacity: 0.7;
     font-size: 22px;
     padding: 20px;
+    font-weight: bold;
 }
 .icons{
     display: flex;

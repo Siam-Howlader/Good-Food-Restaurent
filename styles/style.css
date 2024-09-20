@@ -1,11 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.work-sans-normal {
+  font-family: "Work Sans", system-ui;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+
 * {
   margin: 0;
   padding: 0;
 }
 .banner {
   background-image: linear-gradient(180deg,#10101023 25%, #10101038 34%, #101010ce 100%),url("../assets/hero-bg.png");
-  height: 700px;
+  height: 570px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -147,4 +156,28 @@
     justify-content: center;
     margin-top: 20px;
     gap: 15px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    font-weight:600;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    margin-right: 40px;
+}
+nav li{
+    list-style: none;
+    background-color: greenyellow;
+    padding: 7px;
+    border-radius: 5px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+    border: 1px solid greenyellow;
+    align-items: center;
+    background-color: rgb(10, 10, 10);
 }

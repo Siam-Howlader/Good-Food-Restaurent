@@ -107,18 +107,14 @@
 }
 .about-us{
     display: flex;
+    justify-content:space-between;
 }
-.image{
-    justify-content:space-around;
-} 
 .others{
-    width: 630px;
+    width: 100%;
     display: flex;
-    /* padding: 50px 0px; */
     flex-direction: column;
 }
 .others-content{
-    /* margin: 136px 55px; */
     width: 100%;
     text-align: center;
     margin: auto auto;
